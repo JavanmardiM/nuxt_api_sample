@@ -1,0 +1,62 @@
+@font-face {
+  font-family: iransans;
+  src: url(iransans.eot);
+  src: url(iransans.eot?#iefix) format('embedded-opentype'), url(iransans.woff) format('woff'), url(iransans.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: yekan;
+  src: url(yekan.eot);
+  src: url(yekan.eot?#iefix) format('embedded-opentype'), url(yekan.woff) format('woff'), url(yekan.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal
+}
+
+/* Shabnam */
+@font-face {
+  font-family: Shabnam;
+  src: url('shabnam/Farsi-Digits/Shabnam-FD.eot');
+  src: url('shabnam/Farsi-Digits/Shabnam-FD.eot?#iefix') format('embedded-opentype'),
+          url('shabnam/Farsi-Digits/Shabnam-FD.woff2') format('woff2'),
+          url('shabnam/Farsi-Digits/Shabnam-FD.woff') format('woff'),
+          url('shabnam/Farsi-Digits/Shabnam-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('shabnam/Farsi-Digits/Shabnam-Bold-FD.eot');
+  src: url('shabnam/Farsi-Digits/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'),
+          url('shabnam/Farsi-Digits/Shabnam-Bold-FD.woff2') format('woff2'),
+          url('shabnam/Farsi-Digits/Shabnam-Bold-FD.woff') format('woff'),
+          url('shabnam/Farsi-Digits/Shabnam-Bold-FD.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('shabnam/Farsi-Digits/Shabnam-Light-FD.eot');
+  src: url('shabnam/Farsi-Digits/Shabnam-Light-FD.eot?#iefix') format('embedded-opentype'),
+          url('shabnam/Farsi-Digits/Shabnam-Light-FD.woff2') format('woff2'),
+          url('shabnam/Farsi-Digits/Shabnam-Light-FD.woff') format('woff'),
+          url('shabnam/Farsi-Digits/Shabnam-Light-FD.ttf') format('truetype');
+  font-weight: 300;
+}
+
+*:not(mat-icon):not(.mat-icon):not(.fa) {
+    font-family: Shabnam !important
+}
+.font-size-xsm {
+  font-size: 9px;
+}
+.font-size-sm {
+  font-size: 11px;
+}
+.font-size-lg {
+  font-size: 15px;
+}
+.font-size-xlg {
+  font-size: 17px;
+}
